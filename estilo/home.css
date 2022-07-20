@@ -1,0 +1,26 @@
+#home {
+  padding-block: 0;
+  padding-top: calc(4.1rem + var(--nav-height));
+  height: 75rem;
+
+  color: #fff;
+  text-align: left;
+  text-transform: uppercase;
+
+  
+}
+
+.apre{
+  margin-top: 15rem;
+}
+
+h1 {
+  color: var(--primary-font);
+  font-size: 4rem;
+  margin-top: 1rem;
+}
+
+h4{
+  margin-top: 1rem;
+}
+

@@ -1,0 +1,60 @@
+#experience {
+  color: white;
+  text-align: left;
+}
+
+#experience h2 {
+  text-transform: uppercase;
+}
+
+#experience .navtab ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#experience .navtab ul li  {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+}
+
+
+#experience .tab {
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
+  align-items: center;
+
+  overflow: auto;
+}
+
+#experience .tab button {
+  font-size: 1.6rem;
+  background: none;
+  color: white;
+  border: none;
+  height: 5rem;
+}
+
+.card div {
+  display: none;
+}
+
+.xp {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+}
+
+.tab li:hover {
+  border-left: 2px solid aqua;
+  background-color: #212121;
+}

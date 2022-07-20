@@ -1,0 +1,17 @@
+#about {
+  background-color: var(--primary-bg);
+  color: white;
+  text-align: left;
+}
+
+#about img {
+  display: none;
+}
+
+.social-links {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}

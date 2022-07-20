@@ -1,0 +1,41 @@
+#projects{
+  color: #fff;
+  text-align: left;
+
+}
+
+#container_projetos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5rem;
+}
+.project{
+  width: 30rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project img{
+  object-fit: cover;
+  border-left: 4px solid var(--primary-font);
+  border-radius: 4px;
+}
+
+.project li{
+  padding: .1rem .5rem;
+  border-radius: 20px;
+  background-color: var(--color-blur);
+  color: var(--principal);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.project ul{
+  display: flex;
+  gap: 1rem;
+}
+
+
