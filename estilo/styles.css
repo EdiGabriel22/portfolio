@@ -142,6 +142,9 @@ section {
   flex-wrap: wrap;
 }
 
+/* ====================FOOTER==================================== */
+
+
 footer {
   background-color: var(--primary-bg);
   width: 100%;
@@ -171,27 +174,4 @@ footer span:hover {
 footer div {
   display: flex;
   justify-content: space-between;
-}
-
-/* ----------------------------- */
-
-#edi {
-  display: flex;
-  position: absolute;
-  height: 100vh;
-  width: 100%;
-  color: var(--secondary-bg);
-  font-weight: 700;
-  z-index: -1;
-
-  align-items: center;
-}
-
-#edi > span {
-  max-height: 100vh;
-  opacity: 0.5;
-  max-width: 100%;
-  line-height: 80%;
-  font-size: 30rem;
-  overflow-wrap: break-word;
 }
